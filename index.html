@@ -47,25 +47,25 @@
                     <div class="row mb-3 d-flex justify-content-center">
                       <label for="inputEmail3" class="col-sm-2 col-form-label">Rent:</label>
                       <div class="col-sm-5">
-                        <input type="text" class="form-control" id="inputEmail3">
+                        <input id="rent-expense" type="text" class="form-control" id="inputEmail3">
                       </div>
                     </div>
                     <!-- Clothes -->
                     <div class="row mb-3 d-flex justify-content-center">
                       <label for="inputEmail3" class="col-sm-2 col-form-label">Clothes:</label>
                       <div class="col-sm-5">
-                        <input type="text" class="form-control" id="inputEmail3">
+                        <input id="cloth-expense" type="text" class="form-control" id="inputEmail3">
                       </div>
                     </div>
-                </div>
-                <!-- calculate button -->
-                <div class="text-center">
-                    <button type="submit" class="btn btn-primary">Calculate</button>
-                </div>
-                <br>
+                </div> 
               </form>
+              <!-- calculate button -->
+              <div class="text-center">
+                <button id="calculate-expense" type="email" class="btn btn-primary">Calculate</button>
+            </div>
+            <br>
               <div class="text-center fw-bold">
-                <p>Total Expense: 5500</p>
+                <p>Total Expense: <span id="total-expense">00</span></p>
                 <p>Balance: 4500</p>
               </div>
               <div class="text-center">
